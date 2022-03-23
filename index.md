@@ -44,10 +44,16 @@ permalink: /
 | ok           | good `oreos`      | hmm     |
 | ok           | good `zoute` drop | yumm    |
 
+ℹ️
+{: .label .label-blue }
 NOTE
 
+⚠️
+{: .label .label-yellow }
 CAUTION
 
+🛑
+{: .label .label-red }
 DANGER
 
 ---
