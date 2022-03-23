@@ -44,7 +44,7 @@ permalink: /
 | ok           | good `oreos`      | hmm     |
 | ok           | good `zoute` drop | yumm    |
 
-&nbsp;ℹ️&nbsp; 
+&nbsp;&nbsp;ℹ️&nbsp;&nbsp;
 {: .label .label-blue }
 NOTE
 
