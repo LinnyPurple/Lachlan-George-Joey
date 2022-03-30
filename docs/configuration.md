@@ -28,7 +28,7 @@ Using the CLI also introduces more functionalities that you may overlook while y
 
 ---
 
-## Directories
+## ASCII Table
 
 Linux directories behave similarly to folders. In the background, directories are actually a special type of file used to store information about other files. The Linux operating system controls the contents. Contents include name, permission, type, size, etc.
 
@@ -37,7 +37,7 @@ You can find the home directory for common users under `/home/`[_username_] and 
 
 ---
 
-## What are Commands
+## Operator being used
 
 Commands are instructions the operating system uses to perform specific tasks. Instructions provide a _layer of abstraction_ and make using a computer easy without the need to know how things work.
 
@@ -60,7 +60,7 @@ Things you should pay attention to:
 
 ---
 
-## Command Table
+## What the back end looks like
 
 Below is a list of some common Linux commands.
 
