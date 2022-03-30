@@ -58,6 +58,7 @@ You can find the home directory for common users under `/home/`[_username_] and 
 ## What the back end looks like
 
 Below is a list of some common Linux commands.
+![Memory dump](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/Memory%20dump.png?raw=true "memorydump")
 
 **Note**: This list is not exhaustive.
 
