@@ -28,10 +28,10 @@ Devlopers who has basic knowledge of programming operators.
 
 
 To follow along with this document, you will need the following:
--A computer with access to internet.
--Basic knowledge of using a compiler.
--A ASCII chart with all the ASCII characters and their decimal equivalent value.
--A calculator is optional, but will help in finding the greatest common factor.
+- A computer with access to internet.
+- Basic knowledge of using a compiler.
+- A ASCII chart with all the ASCII characters and their decimal equivalent value.
+- A calculator is optional, but will help in finding the greatest common factor.
 
 ---
 
