@@ -18,15 +18,35 @@ permalink: /
 ### Intended Users
 
 \<Intended Users Text\>
-
+This documentation is targeted towards the following users:
+-Developers who has basic knowledge of system memory.
+-Devlopers who has basic knowledge of programming operators.
 ---
 
 ### Prerequisites
 
 \<Prerequisite Text\>
+To follow along with this document, you will need the following:
+-A computer with access to internet.
+-Basic knowledge of using a compiler.
+-A ASCII chart with all the ASCII characters and their decimal equivalent value.
+-A calculator is optional, but will help in finding the greatest common factor.
 
 ---
 
+### Software Requirements
+
+\<Software Requirements\>
+
+| Recommended Requirements   | Minimum Requirements           |
+|:---------------------------|:-------------------------------|
+| Memory: 2GB                | Memory: 1GB                    |
+| GPU: NVIDIA GeForce 510    | GPU: NVIDIA GeForce 510        |
+| CPU: Intel Core 2 Duo E8400| CPU: Intel Pentium 4 2.00GHz   | 
+| File Size: 500MB           | File Size: 500MB               |
+| OS: Windows 10             | OS: Windows XP                 |
+
+---
 ### Procedures Overview
 
 \<Procedures Overview Text\>
