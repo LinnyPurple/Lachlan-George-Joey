@@ -60,7 +60,7 @@ To follow along with this document, you will need the following:
 
 | Convention   | Typeface          | Example     |
 |:-------------|:------------------|:------------|
-| Code Block   | ```bf code```     | ```bf [-]```|
+| Code Block   | `code`            | `++[->+++<]`|
 | out of stock | good and plenty   | nice        |
 | ok           | good `oreos`      | hmm         |
 | ok           | good `zoute` drop | yumm        |
