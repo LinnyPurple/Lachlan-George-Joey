@@ -19,8 +19,8 @@ The idea behind Brainfuck is memory manipulation using 8 and only 8 operators. W
 ### Intended Users
 
 This documentation is targeted towards the following users:
--Developers who has basic knowledge of system memory.
--Devlopers who has basic knowledge of programming operators.
+Developers who has basic knowledge of system memory.
+Devlopers who has basic knowledge of programming operators.
 ---
 
 ### Prerequisites
