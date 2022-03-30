@@ -26,7 +26,7 @@ Devlopers who has basic knowledge of programming operators.
 
 ### Prerequisites
 
-\<Prerequisite Text\>
+
 To follow along with this document, you will need the following:
 -A computer with access to internet.
 -Basic knowledge of using a compiler.
@@ -37,7 +37,7 @@ To follow along with this document, you will need the following:
 
 ### Software Requirements
 
-\<Software Requirements\>
+
 
 | Recommended Requirements   | Minimum Requirements           |
 |:---------------------------|:-------------------------------|
@@ -56,7 +56,7 @@ To follow along with this document, you will need the following:
 
 ### Typographical Conventions
 
-\<Typographical Conventions\>
+
 
 | Convention   | Typeface          | Example |
 |:-------------|:------------------|:--------|
@@ -81,5 +81,5 @@ DANGER
 
 ### Conclusion
 
-\<Concusion Text\>
+
 The idea of a programming language that only uses 8 symbols/operators is a bizzare way to stimulate one's programming brain. Many programmers turns to brainfuck to take a break away from their primary programming languages such as Java and Python. With that purpose in mind, let us take you through the most bizzare language ever created.
