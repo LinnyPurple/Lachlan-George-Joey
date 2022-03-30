@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Navigating the File System
+title: Supplementry Information
 nav_order: 2
 has_children: false
-permalink: /docs/navigating
+permalink: /
 ---
 
 {: .fs-6 .fw-300 }
 
-# Navigating Your System
+# Supplementry Information
 {: .no_toc }
 
 ---
