@@ -33,7 +33,7 @@ Using the CLI also introduces more functionalities that you may overlook while y
 Linux directories behave similarly to folders. In the background, directories are actually a special type of file used to store information about other files. The Linux operating system controls the contents. Contents include name, permission, type, size, etc.
 
 You can find the home directory for common users under `/home/`[_username_] and the directory for the _root user_ under `root`.
-![ASKEE TABLE](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/ASKEE%20table.png ?raw=true "ASCII Tabe")
+![ASKEE TABLE](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/ASKEE%20table.png?raw=true "ASCII Tabe")
 
 ---
 
