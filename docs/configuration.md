@@ -39,21 +39,16 @@ You can find the home directory for common users under `/home/`[_username_] and 
 
 ## Operator being used
 
-Commands are instructions the operating system uses to perform specific tasks. Instructions provide a _layer of abstraction_ and make using a computer easy without the need to know how things work.
-
-You can think of commands as _keywords_ _mapped_ to a mini-program that executes when you input _keywords_ into a _terminal_.
-
-Linux commands have set syntax which allows you to pass extra _options_ and _arguments_. The syntax looks something like this:
-
->> _command_ [_options_] [_arguments_]
-
-Things you should pay attention to:
-
-* Separate commands, options, and arguments with spaces
-* Short command options start with `-`
-* Long command options start with `--`
-* The command reads from left to right so _options_ and _arguments_ refer to the command on the left
-* The type of _options_ available and _arguments_ accepted will depend on the command
+| Command         | Description                                                                                             |
+| :--------       | :------------------------------------------------------------------------------------------------------ |
+| `ls`            | "List" all visible files and folders in the current directory.                                          |
+| `pwd`           | "Print working directory" shows your current directory location.                                        |
+| `cd`            | "Change directory" to a specified directory or your home directory.                                     |
+| `open`          | "Open" a specified file, application, or directory.                                                     |
+| `clear`         | "Clear" your terminal screen.                                                                           |
+| `exit`          | "Exits" a terminal or a terminal session.                                                               |
+| `history`       | Lists a "history" of issued commands.                                                                   |
+| **[Up Arrow]**  | Scrolls through most recent command.                                                                    |
 
 ![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
 > **Note:** You can find the full information about a command by using the `man` command. The syntax is `man [command]`.
@@ -66,16 +61,6 @@ Below is a list of some common Linux commands.
 
 **Note**: This list is not exhaustive.
 
-| Command         | Description                                                                                             |
-| :--------       | :------------------------------------------------------------------------------------------------------ |
-| `ls`            | "List" all visible files and folders in the current directory.                                          |
-| `pwd`           | "Print working directory" shows your current directory location.                                        |
-| `cd`            | "Change directory" to a specified directory or your home directory.                                     |
-| `open`          | "Open" a specified file, application, or directory.                                                     |
-| `clear`         | "Clear" your terminal screen.                                                                           |
-| `exit`          | "Exits" a terminal or a terminal session.                                                               |
-| `history`       | Lists a "history" of issued commands.                                                                   |
-| **[Up Arrow]**  | Scrolls through most recent command.                                                                    |
 
 ---
 
