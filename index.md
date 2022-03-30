@@ -58,12 +58,12 @@ To follow along with this document, you will need the following:
 
 
 
-| Convention   | Typeface          | Example |
-|:-------------|:------------------|:--------|
-| ok           | good swedish fish | nice    |
-| out of stock | good and plenty   | nice    |
-| ok           | good `oreos`      | hmm     |
-| ok           | good `zoute` drop | yumm    |
+| Convention   | Typeface          | Example     |
+|:-------------|:------------------|:------------|
+| Code Block   | ```bf code```     | ```bf [-]```|
+| out of stock | good and plenty   | nice        |
+| ok           | good `oreos`      | hmm         |
+| ok           | good `zoute` drop | yumm        |
 
 &nbsp;&nbsp;ℹ️&nbsp;&nbsp;
 {: .label .label-blue }
