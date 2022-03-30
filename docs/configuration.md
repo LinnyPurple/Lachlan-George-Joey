@@ -13,11 +13,11 @@ nav_order: 2
 
 ---
 
-||A computer system without a graphical user interface, _GUI_ can seem daunting. The good news is, most, if not all modern distributions of Linux include a GUI.
+|| A computer system without a graphical user interface, _GUI_ can seem daunting. The good news is, most, if not all modern distributions of Linux include a GUI.
 
 The goal of this section is to explain and show you that navigating Linux through the _CLI_ (command-line interface) is not difficult. With enough practice, you may find that using the _CLI_ to navigate through a computer is sometimes easier and even quicker.
 
-Using the CLI also introduces more functionalities that you may overlook while you use a _GUI_. To use the Linux _CLI_, you will use an application called the _terminal_.||
+Using the CLI also introduces more functionalities that you may overlook while you use a _GUI_. To use the Linux _CLI_, you will use an application called the _terminal_. ||
 
 ---
 
