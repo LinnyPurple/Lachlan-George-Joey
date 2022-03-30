@@ -9,7 +9,8 @@ permalink: /
 # Introduction
 {: .fs-9 }
 
-\<INTRODUCTION TEXT\>
+The purpose of this documentation is to introduce the concept of the Brainfuck programming lanauge. Brainfuck is the most inefficient language ever created and requires excessive time and effort to master. 
+The idea behind Brainfuck is memory manipulation using 8 and only 8 operators. With 8 operators, users are able to write any programs.
 
 {: .fs-6 .fw-300 }
 
@@ -17,7 +18,6 @@ permalink: /
 
 ### Intended Users
 
-\<Intended Users Text\>
 This documentation is targeted towards the following users:
 -Developers who has basic knowledge of system memory.
 -Devlopers who has basic knowledge of programming operators.
@@ -81,3 +81,4 @@ DANGER
 ### Conclusion
 
 \<Concusion Text\>
+The idea of a programming language that only uses 8 symbols/operators is a bizzare way to stimulate one's programming brain. Many programmers turns to brainfuck to take a break away from their primary programming languages such as Java and Python. With that purpose in mind, let us take you through the most bizzare language ever created.
