@@ -2,8 +2,8 @@
 layout: default
 title: Supplementry Information
 nav_order: 2
-has_children: false
-permalink: /
+
+
 ---
 
 {: .fs-6 .fw-300 }
