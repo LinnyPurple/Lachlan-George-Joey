@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Configuration
+title: Supplementry Information
 nav_order: 2
 ---
 
