@@ -1,197 +1,183 @@
 ---
 layout: default
-title: Supplementry Information
+title: Navigating the File System
 nav_order: 2
+has_children: false
+permalink: /docs/navigating
 ---
 
-# Supplementry Information
-{: .no_toc }
-
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
 {: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+# Navigating Your System
+{: .no_toc }
 
-1. TOC
+---
+
+A computer system without a graphical user interface, _GUI_ can seem daunting. The good news is, most, if not all modern distributions of Linux include a GUI.
+
+The goal of this section is to explain and show you that navigating Linux through the _CLI_ (command-line interface) is not difficult. With enough practice, you may find that using the _CLI_ to navigate through a computer is sometimes easier and even quicker.
+
+Using the CLI also introduces more functionalities that you may overlook while you use a _GUI_. To use the Linux _CLI_, you will use an application called the _terminal_.
+
+---
+
+### Table of contents
+{: .no_toc .text-delta }
+* TOC
 {:toc}
 
 ---
 
-View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
+## Directories
 
-## Site logo
+Linux directories behave similarly to folders. In the background, directories are actually a special type of file used to store information about other files. The Linux operating system controls the contents. Contents include name, permission, type, size, etc.
 
-```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
-```
+You can find the home directory for common users under `/home/`[_username_] and the directory for the _root user_ under `root`.
 
-## Search
 
-```yaml
-# Enable or disable the site search
-# Supports true (default) or false
-search_enabled: true
+---
 
-search:
-  # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
-  heading_level: 2
-  # Maximum amount of previews per search result
-  # Default: 3
-  previews: 3
-  # Maximum amount of words to display before a matched word in the preview
-  # Default: 5
-  preview_words_before: 5
-  # Maximum amount of words to display after a matched word in the preview
-  # Default: 10
-  preview_words_after: 10
-  # Set the search token separator
-  # Default: /[\s\-/]+/
-  # Example: enable support for hyphenated search words
-  tokenizer_separator: /[\s/]+/
-  # Display the relative url in search results
-  # Supports true (default) or false
-  rel_url: true
-  # Enable or disable the search button that appears in the bottom right corner of every page
-  # Supports true or false (default)
-  button: false
-```
+## What are Commands
 
-## Aux links
+Commands are instructions the operating system uses to perform specific tasks. Instructions provide a _layer of abstraction_ and make using a computer easy without the need to know how things work.
 
-```yaml
-# Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+You can think of commands as _keywords_ _mapped_ to a mini-program that executes when you input _keywords_ into a _terminal_.
 
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
-```
+Linux commands have set syntax which allows you to pass extra _options_ and _arguments_. The syntax looks something like this:
 
-## Heading anchor links
+>> _command_ [_options_] [_arguments_]
 
-```yaml
-# Heading anchor links appear on hover over h1-h6 tags in page content
-# allowing users to deep link to a particular heading on a page.
-#
-# Supports true (default) or false
-heading_anchors: true
-```
+Things you should pay attention to:
 
-## Footer content
+* Separate commands, options, and arguments with spaces
+* Short command options start with `-`
+* Long command options start with `--`
+* The command reads from left to right so _options_ and _arguments_ refer to the command on the left
+* The type of _options_ available and _arguments_ accepted will depend on the command
 
-```yaml
-# Footer content
-# appears at the bottom of every page's main content
-# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust
-markup / liquid-based content.
-footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
+![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+> **Note:** You can find the full information about a command by using the `man` command. The syntax is `man [command]`.
 
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+---
 
-# Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
-# gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
-```
+## Command Table
 
-_note: `footer_content` is deprecated, but still supported. For a better experience we have moved this into an include called `_includes/footer_custom.html` which will allow for robust markup / liquid-based content._
+Below is a list of some common Linux commands.
 
-- the "page last modified" data will only display if a page has a key called `last_modified_date`, formatted in some readable date format
-- `last_edit_time_format` uses Ruby's DateTime formatter; see examples and more information [at this link.](https://apidock.com/ruby/DateTime/strftime)
-- `gh_edit_repository` is the URL of the project's GitHub repository
-- `gh_edit_branch` is the branch that the docs site is served from; defaults to `main`
-- `gh_edit_source` is the source directory that your project files are stored in (should be the same as [site.source](https://jekyllrb.com/docs/configuration/options/))
-- `gh_edit_view_mode` is `"tree"` by default, which brings the user to the github page; switch to `"edit"` to bring the user directly into editing mode
+**Note**: This list is not exhaustive.
 
-## Color scheme
+| Command         | Description                                                                                             |
+| :--------       | :------------------------------------------------------------------------------------------------------ |
+| `ls`            | "List" all visible files and folders in the current directory.                                          |
+| `pwd`           | "Print working directory" shows your current directory location.                                        |
+| `cd`            | "Change directory" to a specified directory or your home directory.                                     |
+| `open`          | "Open" a specified file, application, or directory.                                                     |
+| `clear`         | "Clear" your terminal screen.                                                                           |
+| `exit`          | "Exits" a terminal or a terminal session.                                                               |
+| `history`       | Lists a "history" of issued commands.                                                                   |
+| **[Up Arrow]**  | Scrolls through most recent command.                                                                    |
 
-```yaml
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
-```
+---
 
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+## Using Commands To Navigate Your System
 
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+There are many commands we can use to navigate the Linux file system in the terminal. This instruction set uses some of the commands in the list above and teaches you to be more comfortable with navigating through your Linux system using the terminal.
 
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
+---
 
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.
+**1.** Open up your terminal by right-clicking on your desktop and clicking *`Open Terminal`*.
 
-## Google Analytics
+>![Terminal open](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/term.png?raw=true "terminal")
+<br />
+<br />
 
-```yaml
-# Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-ga_tracking: UA-5555555-55
-ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
-```
+**2.** Input the following command into your terminal to display your current directory.
 
-## Document collections
+>```
+>pwd
+>```
 
-By default, the navigation and search include normal [pages](https://jekyllrb.com/docs/pages/).
-Instead, you can also use [Jekyll collections](https://jekyllrb.com/docs/collections/) which group documents semantically together.
+>You should be able to see exactly which directory you are currently in.
 
-For example, put all your documentation files in the `_docs` folder and create the `docs` collection:
+>![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
+<br />
+<br />
 
-```yaml
-# Define Jekyll collections
-collections:
-  # Define a collection named "docs", its documents reside in the "_docs" directory
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
+**3.** Display the contents inside your current directory with the following command.
 
-just_the_docs:
-  # Define which collections are used in just-the-docs
-  collections:
-    # Reference the "docs" collection
-    docs:
-      # Give the collection a name
-      name: Documentation
-      # Exclude the collection from the navigation
-      # Supports true or false (default)
-      nav_exclude: false
-      # Exclude the collection from the search
-      # Supports true or false (default)
-      search_exclude: false
-```
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> **Note**: Using the `ls` command with the `-a` switch lists all hidden files as well.
 
-You can reference multiple collections.
-This creates categories in the navigation with the configured names.
+<br />
+>```
+>ls
+>```
 
-```yaml
-collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
-  tutorials:
-    permalink: "/:collection/:path/"
-    output: true
+>You can see a list of everything inside your current directory.
 
-just_the_docs:
-  collections:
-    docs:
-      name: Documentation
-    tutorials:
-      name: Tutorials
-```
+>![Screen shot ls](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents.png?raw=true "ls")
+<br />
+<br />
+
+**4.** Create a new folder inside your current directory by using the following command.
+
+>```
+>mkdir testfolder
+>```
+
+>Check the contents of your current directory again by inputting the `ls` command again.
+
+>```
+>ls
+>```
+
+>You will see that you have successfully created a new folder called *`testfolder`*.
+
+>![Screen shot ls with testfolder](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/contents2.png?raw=true "ls")
+<br />
+<br />
+
+**5.** Change into the *`testfolder`* directory with the following command.
+
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>>**Note**: The input after `cd` is the name of the directory you want to change into.
+
+<br />
+>```
+>cd testfolder
+>```
+
+>Check to see which directory you are now currently in with the `pwd` command.
+
+>```
+>pwd
+>```
+
+>You will see that you are now inside the *`testfolder`* directory.
+
+>![pwd2](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd2.png?raw=true "ls")
+<br />
+<br />
+
+**6.** Change back to the previous directory with the following command.
+
+>![Note icon](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/icons/note.png?raw=true "Note"){: style="float: left" }
+>> **Note**: By adding `..`, you can jump back up one parent directory. Using `cd -` can also return you to your previous location, but you can only backtrack once.
+<br />
+<br />
+
+>```
+>cd ..
+>```
+
+>You can see you have returned back to the previous directory that you were in.
+
+>![Screen shot pwd](https://github.com/dl90/linux-basics/blob/gh-pages/docs/images/navigation/directories/pwd.png?raw=true "pwd")
+<br />
+<br />
+
+You now know how to open the terminal and input commands which allow you to navigate through your system. 
+
+Now you are able to see files in your directories as well as your current directory, allowing you to easily navigate through your system.
+
+The next step is to learn how to [create users and assign privileges.](https://dl90.github.io/linux-basics/docs/users)
