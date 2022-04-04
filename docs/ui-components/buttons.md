@@ -50,3 +50,25 @@ Finally, we have our result in cell 0. To output something to the console, we us
 ```
 >.
 ```
+
+## Final Program
+The finished program should look something like this:
+```
+,>
+,,
+
+[-<+>]
+
+++++++
+[-<-------->]
+
+<.
+```
+
+## Running the program
+To input stuff to the program, you need to type it into the text box at the bottom of the page (shown in the image below). Then press the button labelled 'run'.
+
+![input](https://user-images.githubusercontent.com/65137794/161481872-9561c2bf-2d2a-4f53-a22d-55369a6910c6.png)
+
+## Conclusion
+Unfortunately, this program will only work correctly when the sum of the inputted numbers is less than 10. This is because ASCII numbers only go up to 9. So to output 10 or more, you'd need to detect when the sum is greater than 9, and output the correct series of numbers.
