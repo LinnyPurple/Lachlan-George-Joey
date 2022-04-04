@@ -35,7 +35,7 @@ This loop starts at cell 1, which is where the second number from the input is. 
 ## Step 3
 Since we added the ASCII values of the numbers rather than their actual values, the value in cell 0 will be incorrect. In fact, it will be exactly 48 too high. This is because the character '0' has an ASCII value of 48. So we will need to subtract 48 from cell 0 to get our answer.
 
-This could be done by just putting in 48 `-` characters, but instead we're going to use a loop to shorted the program:
+This could be done by just putting in 48 `-` characters, but instead we're going to use a loop to shorten the program:
 
 ```
 ++++++
