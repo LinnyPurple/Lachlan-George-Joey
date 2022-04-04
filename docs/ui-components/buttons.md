@@ -48,7 +48,7 @@ The pointer is currently at cell 1 which has a value of 0. We add 6, and then en
 Finally, we have our result in cell 0. To output something to the console, we use a `.`. But since the pointer is currently at cell 1, we need to move to cell 0 first. So the final line of the program will be:
 
 ```
->.
+<.
 ```
 
 ## Final Program
