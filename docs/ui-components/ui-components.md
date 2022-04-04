@@ -1,12 +1,12 @@
 ---
 layout: default
-title: UI Components
+title: Tutorials
 nav_order: 3
 has_children: true
-permalink: /docs/ui-components
+permalink: /docs/tutorials
 ---
 
 # UI Components
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
+Click on the links below to access the tutorial you're looking for.
 {: .fs-6 .fw-300 }
