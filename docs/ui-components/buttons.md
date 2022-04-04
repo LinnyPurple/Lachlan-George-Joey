@@ -1,97 +1,24 @@
 ---
 layout: default
-title: Buttons
-parent: UI Components
+title: Addition Program
+parent: Tutorials
 nav_order: 2
 ---
 
-# Buttons
+# Simple Addition Program
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
+An addition program is one of the simplest ways to use a user's input in a program. In this example, the user will input two numbers, and the program will print the sum of them.
 
-1. TOC
-{:toc}
+## Step 1
+Before we can add numbers, we need to get the numbers we're going to add! To get user input in Brainfuck, the ',' character is used. Each time it is used, it will get the next character in the input and set the current cell to the ASCII value of that character.
 
----
+For this program, the input will be formatted as `# #` with '#' being replaced by a number from 1-9.
 
-## Basic button styles
+Getting the first number is easy, we just need to do a single ','. Then we need to move to the next cell and store the second number. The numbers are separated by a space character so we will need to do ',,' to get it.
 
-### Links that look like buttons
-
-<div class="code-example" markdown="1">
-[Link button](http://example.com/){: .btn }
-
-[Link button](http://example.com/){: .btn .btn-purple }
-[Link button](http://example.com/){: .btn .btn-blue }
-[Link button](http://example.com/){: .btn .btn-green }
-
-[Link button](http://example.com/){: .btn .btn-outline }
-</div>
-```markdown
-[Link button](http://example.com/){: .btn }
-
-[Link button](http://example.com/){: .btn .btn-purple }
-[Link button](http://example.com/){: .btn .btn-blue }
-[Link button](http://example.com/){: .btn .btn-green }
-
-[Link button](http://example.com/){: .btn .btn-outline }
+Which means our first few lines are going to look like this:
 ```
-
-### Button element
-
-GitHub Flavored Markdown does not support the `button` element, so you'll have to use inline HTML for this:
-
-<div class="code-example">
-<button type="button" name="button" class="btn">Button element</button>
-</div>
-```html
-<button type="button" name="button" class="btn">Button element</button>
-```
-
----
-
-## Using utilities with buttons
-
-### Button size
-
-Wrap the button in a container that uses the [font-size utility classes]({{ site.baseurl }}{% link docs/utilities/typography.md %}) to scale buttons:
-
-<div class="code-example" markdown="1">
-<span class="fs-6">
-[Big ass button](http://example.com/){: .btn }
-</span>
-
-<span class="fs-3">
-[Tiny ass button](http://example.com/){: .btn }
-</span>
-</div>
-```markdown
-<span class="fs-8">
-[Link button](http://example.com/){: .btn }
-</span>
-
-<span class="fs-3">
-[Tiny ass button](http://example.com/){: .btn }
-</span>
-```
-
-### Spacing between buttons
-
-Use the [margin utility classes]({{ site.baseurl }}{% link docs/utilities/layout.md %}#spacing) to add spacing between two buttons in the same block.
-
-<div class="code-example" markdown="1">
-[Button with space](http://example.com/){: .btn .btn-purple .mr-2 }
-[Button ](http://example.com/){: .btn .btn-blue .mr-2 }
-
-[Button with more space](http://example.com/){: .btn .btn-green .mr-4 }
-[Button ](http://example.com/){: .btn .btn-blue }
-</div>
-```markdown
-[Button with space](http://example.com/){: .btn .btn-purple .mr-2 }
-[Button ](http://example.com/){: .btn .btn-blue }
-
-[Button with more space](http://example.com/){: .btn .btn-green .mr-4 }
-[Button ](http://example.com/){: .btn .btn-blue }
+,>
+,,
 ```
