@@ -15,7 +15,7 @@ Before we can add numbers, we need to get the numbers we're going to add! To get
 
 For this program, the input will be formatted as `# #` with '#' being replaced by a number from 1-9.
 
-Getting the first number is easy, we just need to do a single ','. Then we need to move to the next cell and store the second number. The numbers are separated by a space character so we will need to do ',,' to get it.
+Getting the first number is easy, we just need to do a single `,`. Then we need to move to the next cell and store the second number. The numbers are separated by a space character so we will need to do `,,` to get it.
 
 Which means our first few lines are going to look like this:
 ```
