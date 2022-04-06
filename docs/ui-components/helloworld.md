@@ -8,10 +8,10 @@ nav_order: 2
 # Hello World! Program
 {: .no_toc }
 
-A basic "Hello World!" program gives the user the ability to manipulate the contents of the cells and output their values. This also considers ASCII values and how we can obtain them.
+A basic "Hello World!" program gives the user the ability to manipulate the contents of the cells and output their values. This also considers ASCII values and how we can get them.
 
 ## Step 1 - Printing the first character: 'H'
-The way we plan on printing out "Hello World!" is to print out each character individually. First, we will print 'H'. To know what ASCII value corresponds to 'H', we look at the ASCII table and see that it is 72.
+The way we plan on printing out "Hello World!" is to print out each individual character. First, we will print 'H'. To know what ASCII value corresponds to 'H', we look at the ASCII table and see that it is 72.
 
 Thus we need to make a cell's value equal to 72, then output it.
 
@@ -43,7 +43,7 @@ The ASCII value of 'e' is 101. Since cell 1 has the value of 72, we will need to
   - add 7 to cell 1
   - move the cell pointer to the left by 1 (now at cell 0).
 
-By this, the value of cell 1 is now 72 + 4 * 7 = 72 + 28 = 100, just 1 short of 101. All we need to do is to move the cell pointer to the right by 1, add 1, then output cell 1's value (100 + 1 = 101).
+By this, the value of cell 1 is now 72 + 4 * 7 = 72 + 28 = 100, 1 short of 101. All we need to do is to move the cell pointer to the right by 1, add 1, then output cell 1's value (100 + 1 = 101).
 
 The code to output 0 should look like this:
 ```
@@ -52,16 +52,16 @@ The code to output 0 should look like this:
 >+.                         Adds 1 to cell 1 (100 plus 1 = 101) and prints 'e' (ASCII value 101)
 ```
 
-Since the ASCII value of 'l' is 108, there isn't much of a need to use another while-loop since cell 1's current value of 101 is rather close and would require fewer characters. Two 'l' characters in a row means we can output twice once we reach 108.
+Since the ASCII value of 'l' is 108, we don't need to use another while-loop since cell 1's current value of 101 is rather close and would need fewer characters. Two 'l' characters in a row means we can output twice once we reach 108.
 
-All that is needed is to increment cell 1 by 7 and output twice (101 + 7 = 108).
+All you need is to increment cell 1 by 7 and output twice (101 + 7 = 108).
 
-Simply type the following to output 'll':
+Type the following to output 'll':
 ```
 +++++++..                   Adds 7 to cell 1 (101 plus 7 = 108) and prints 'l' (ASCII value 108) twice ('ll')
 ```
 
-Similar steps to 2b can be applied to outputting 'o', which has an ASCII value of 111. This can be achieved by incrementing cell 1 by 3 and outputting the result (108 + 3 = 111):
+The above steps are similar for outputting 'o', which has an ASCII value of 111. We can achieve this by incrementing cell 1 by 3 and outputting the result (108 + 3 = 111):
 ```
 +++.                        Adds 3 to cell 1 (108 plus 3 = 111) and prints 'o'
 ```
@@ -84,7 +84,7 @@ Cell 1's value is now (111 - 8 * 10 = 111 - 80 = 31), which is what we need to o
 ```
 
 ## Step 4 - Print "World"
-Following the above, our process of giving cell 0 a value, decreasing it while adding/subtracting another value in cell 1 will hold for many characters here.
+Our process of giving cell 0 a value, decreasing it while adding/subtracting another value in cell 1 will hold for many characters here.
 
 The ASCII value for 'W' is 87. With cell 1's value of 33, we can give cell 0 the value of 5, increase cell 1 by 11 that many times then output the result:
 ```
@@ -100,7 +100,7 @@ The ASCII value for 'o' is 111. With cell 1's value of 87, we can give cell 0 th
 >.                          Prints 'o' (ASCII value 111)
 ```
 
-For the remainder of "World", it is easier to just increment/decrement cell 1 by a given value.
+For the rest of "World", it is easier to increment/decrement cell 1 by a given value.
 
 For 'r', its ASCII value is 114. Add 3 to cell 1 as such:
 ```
