@@ -12,6 +12,8 @@ permalink: /
 The purpose of this documentation is to introduce the concept of the Brainfuck programming lanauge. Brainfuck is the most inefficient language ever created and requires excessive time and effort to master. 
 The idea behind Brainfuck is memory manipulation using 8 and only 8 operators. With 8 operators, users are able to write any programs.
 
+The website we will utilize is https://copy.sh/brainfuck/
+
 {: .fs-6 .fw-300 }
 
 ---
