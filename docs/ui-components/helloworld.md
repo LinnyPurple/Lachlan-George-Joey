@@ -2,7 +2,7 @@
 layout: default
 title: Hello World! Program
 parent: Tutorials
-nav_order: 3
+nav_order: 2
 ---
 
 # Hello World! Program
