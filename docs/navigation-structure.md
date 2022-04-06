@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Navigation Structure
+parent: UI Components
 nav_order: 5
 ---
 
