@@ -51,11 +51,11 @@ To follow along with this document, you will need the following:
 ### Procedures Overview
 
 You can find all the tutorials under the "Tutorials" section in the side bar.
-| Tutorial     | Description                                 | Difficulty   |
-|:-------------|:--------------------------------------------|--------------|
-| Print Number | Learn how to print a number.                | Beginner     |
-| Hello World  | Learn how to print "Hello World!            | Intermediate |
-| Addition     | Learn how to make a simple addition program | Difficult    |
+| Tutorial     | Description                                  | Difficulty   |
+|:-------------|:---------------------------------------------|--------------|
+| Print Number | Learn how to print a number.                 | Beginner     |
+| Hello World  | Learn how to print "Hello World!             | Intermediate |
+| Addition     | Learn how to make a simple addition program. | Difficult    |
 
 ---
 
