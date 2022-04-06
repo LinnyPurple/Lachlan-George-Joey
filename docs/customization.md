@@ -37,7 +37,7 @@ On this page, you'll find some helpful reminders and tips about this programming
 
 ## ASCII Table
 
-When outputting to the console, the ASCII value of that number will be printed rather than the number itself. For example, if the value of the current cell is `48`: `0` will be printed to the console.
+When outputting to the console, the ASCII value of that number will be printed rather than the number itself. For example, if the value of the current cell is `48`, `0` will be printed to the console.
 
 ![ASKEE TABLE](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/ASKEE%20table.png?raw=true "ASCII Tabe")
 
