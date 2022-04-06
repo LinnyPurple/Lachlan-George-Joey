@@ -8,14 +8,14 @@ nav_order: 1
 # Print Number Program
 {: .no_toc }
 
-A basic Printing program gives the user the ability to manipulate the contents of the cells and output their values. This Program allows the user to print numbers 1 to 9 in a loop.
+A basic Printing program gives the user the ability to manipulate the contents of the cells and output their values. This Program allows the user to print numbers 1 to 10 in a loop.
 
 ## Step 1 - Moving the Cell:
 The way we plan on printing out numbers is to print out each character individually by using counters and a loop.
 
 First, we need to move Cells and intialize counters for the loop.
 
-We start by moving the Cell from 0 to '1'.
+1. We start by moving the Cell from 0 to '1'. We do this by typing the '+' 49 times
 
 `+++++++++++++++++++++++++++++++++++++++++++++++++`
 
@@ -23,9 +23,12 @@ The '+' allows us to move the cell.
 
 Now we need to get the program to input a '\n', which allows the program to print each number on a new line.
 
+2. Type '>' followed by 10 '+'.
 `>++++++++++`  
 
 After the new line, we will need to initialize the counters. 
+
+3. Type '>" followed by 9 '+'.
 
 `>+++++++++`
 
@@ -38,22 +41,26 @@ We will now create a loop that allow us to print numbers from 1 to 9.
 
 We first start the loop by using the operator:
 
+1. Type '[' into the input box.
 `[`
 
 Since we are aiming to print in a ascending order we need to move the data pointer to the begining.
 
+2. Enter '<<' into the input box.
 `<<`
 
 This moves the data pointer to cell 0
 
 We start by printing cell 0, which is has '1' assigned to it.
 
+3. Enter '.' followed by '+' into the input box
 `.+`
 
 This prints 1 then increments cell 0.
 
 Now we have to move the data pointer to cell 1, which has '\n' assigned to it and invoke the new line function. 
 
+4. Type '>' followed by '.' into the input box
 `>.`
 
 This moves the pointer to cell 1 and then prints a new line.
