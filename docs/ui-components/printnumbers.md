@@ -15,14 +15,14 @@ The way we plan on printing out numbers is to print out each character individua
 
 First, we need to move Cells and intialize counters for the loop.
 
-1. We start by moving the Cell from 0 to '1'. We do this by typing the '+' 49 times  
+1. We start by moving the Cell from 0 to `1`. We do this by typing the `+` 49 times  
 `+++++++++++++++++++++++++++++++++++++++++++++++++`  
-The '+' allows us to move the cell.  
-Now we need to get the program to input a '\n', which allows the program to print each number on a new line.
-2. Type '>' followed by 10 '+'  
+The `+` allows us to move the cell.  
+Now we need to get the program to input a `\n`, which allows the program to print each number on a new line.
+2. Type `>` followed by 10 `+`  
 `>++++++++++`  
 After the new line, we will need to initialize the counters.  
-3. Type '>" followed by 9 '+'  
+3. Type `>` followed by 9 `+`  
 `>+++++++++`  
 This will allow us to assign Cell 2 to 9 as counters.  
 
@@ -32,27 +32,27 @@ We will now create a loop that allow us to print numbers from 1 to 9.
 
 We first start the loop by using the operator:
 
-1. Type '[' into the input box.  
+1. Type `[` into the input box.  
 `[`  
 Since we are aiming to print in a ascending order we need to move the data pointer to the begining.  
-2. Enter '<<' into the input box.  
+2. Enter `<<` into the input box.  
 `<<`  
 This moves the data pointer to cell 0  
-We start by printing cell 0, which is has '1' assigned to it.  
-3. Enter '.' followed by '+' into the input box  
+We start by printing cell 0, which is has `1` assigned to it.  
+3. Enter `.` followed by `+` into the input box  
 `.+`  
 This prints 1 then increments cell 0.  
-Now we have to move the data pointer to cell 1, which has '\n' assigned to it and invoke the new line function.  
-4. Type '>' followed by '.' into the input box  
+Now we have to move the data pointer to cell 1, which has `\n` assigned to it and invoke the new line function.  
+4. Type `>` followed by `.` into the input box  
 `>.`  
 This moves the pointer to cell 1 and then prints a new line.  
-Lastly, we move the the data pointer to cell 2, which has '9' assigned to the cell and will act as a counter.  
-5. Enter '>' followed by '-' into the input box.  
+Lastly, we move the the data pointer to cell 2, which has `9` assigned to the cell and will act as a counter.  
+5. Enter `>` followed by `-` into the input box.  
 `>-`  
 Now we end the loop by simply using the closing square bracket.  
-6. Type ']' into the input box.  
+6. Type `]` into the input box.  
 `]`  
-This loop will utilize the counter '9' we have assigned earlier and loop until the counter reaches 0.  
+This loop will utilize the counter `9` we have assigned earlier and loop until the counter reaches 0.  
 
 
 ## Step 3 - Resetting the counter
@@ -60,10 +60,10 @@ The memory used to activate the counter in the previous step would need to clear
 
 We first begin by setting cell 2 to 9.
 
-1. Type in '+' 9 times into the input box.  
+1. Type in `+` 9 times into the input box.  
 `+++++++++`  
 Like the previous step, we utilize a loop to avoid redundant operations.  
-2. Enter '[' into the input box.  
+2. Enter `[` into the input box.  
 `[`  
 This operator lets us start a loop.  
 Then, we move the data pointer to cell 0 and decrease the value.  
@@ -73,30 +73,30 @@ Now, wee need to move the pointer to cell 2 where the counter is located.
 This will move the pointer to cell 2 and decrease the counter.  
 Finally, we close off the loop by using the closing square bracket.  
 `]`  
-This loop will ultimately decrease the counter from '9' to '0'.
+This loop will ultimately decrease the counter from `9` to `0`.
 
 ## Step 4 - Print the rest of the number
 The loop from step 2 prints number 1 to 9. Our goal in this program is to include '10' as well. Since only one number is required to print, we do not need a loop.
 
-Remember how we have assigned '1' to a cell? we can avoid redundancy and use what we currently have.
+Remember how we have assigned `1` to a cell? we can avoid redundancy and use what we currently have.
 
-Firstly, we move the data point to cell 0 where the '1' is located.
+Firstly, we move the data point to cell 0 where the `1` is located.
 
 `<<.`
 
-This operation allows us to print '1' which is the first half of '10'.
+This operation allows us to print `1` which is the first half of `10`.
 
-Now we decrease the value in cell 0 (which is '1') and print.
+Now we decrease the value in cell 0 (which is `1`) and print.
 
 `-.`
 
-This allows us to print the second of '10' and complete the program. 
+This allows us to print the second of `10` and complete the program. 
 
-We can finish off the program by printing the last 'new line' to improve clarity and readability
+We can finish off the program by printing the last `new line` to improve clarity and readability
 
 `>.`
 
-This moves the data pointer to cell 1 where '\n' is located and prints a new line.
+This moves the data pointer to cell 1 where `\n` is located and prints a new line.
 
 ## Final Program
 The finished program should look something like this:
