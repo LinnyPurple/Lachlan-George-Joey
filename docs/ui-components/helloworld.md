@@ -93,13 +93,6 @@ The ASCII value for 'W' is 87. With cell 1's value of 33, we can give cell 0 the
 >.                          Prints 'W' (ASCII value 87)
 ```
 
-The ASCII value for 'W' is 87. With cell 1's value of 33, we can give cell 0 the value of 5, increase cell 1 by 11 that many times then output the result:
-```
-<+++++                      Moves cell pointer to 1 and adds 5
-[->+++++++++++<]            Via pointer moving adds 55 to cell 1 (32 plus 55 = 87)
->.                          Prints 'W' (ASCII value 87)
-```
-
 The ASCII value for 'o' is 111. With cell 1's value of 87, we can give cell 0 the value of 4, increase cell 1 by 6 that many times then output the result:
 ```
 <++++                       Moves cell pointer to 0 and adds 4
