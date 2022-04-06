@@ -50,7 +50,12 @@ To follow along with this document, you will need the following:
 ---
 ### Procedures Overview
 
-\<Procedures Overview Text\>
+You can find all the tutorials under the "Tutorials" section in the side bar.
+| Tutorial     | Description                                 | Difficulty   |
+|:-------------|:--------------------------------------------|--------------|
+| Print Number | Learn how to print a number.                | Beginner     |
+| Hello World  | Learn how to print "Hello World!            | Intermediate |
+| Addition     | Learn how to make a simple addition program | Difficult    |
 
 ---
 
@@ -61,9 +66,6 @@ To follow along with this document, you will need the following:
 | Convention   | Typeface          | Example     |
 |:-------------|:------------------|:------------|
 | Code Block   | `code`            | `++[->+++<]`|
-| out of stock | good and plenty   | nice        |
-| ok           | good `oreos`      | hmm         |
-| ok           | good `zoute` drop | yumm        |
 
 &nbsp;&nbsp;ℹ️&nbsp;&nbsp;
 {: .label .label-blue }
