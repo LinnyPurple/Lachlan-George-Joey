@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Markdown kitchen sink
+parent: UI Components
 nav_order: 99
 ---
 
