@@ -8,7 +8,7 @@ nav_order: 1
 # Print Number Program
 {: .no_toc }
 
-A basic Printing program gives the user the ability to manipulate the contents of the cells and output their values. This Program allows the user to print numbers 1 to 10 in a loop.
+A basic printing program gives the user the ability to manipulate the contents of the cells and output their values. This program allows the user to print numbers 1 to 10 in a loop.
 
 ## Step 1 - Moving the Cell:
 The way we plan on printing out numbers is to print out each character individually by using counters and a loop.
@@ -67,10 +67,12 @@ This moves the pointer to cell 1 and then prints a new line.
 
 Lastly, we move the the data pointer to cell 2, which has '9' assigned to the cell and will act as a counter.
 
+5. Enter '>' followed by '-' into the input box.
 `>-`
 
 Now we end the loop by simply using the closing square bracket.
 
+6. Type ']' into the input box.
 `]`
 
 This loop will utilize the counter '9' we have assigned earlier and loop until the counter reaches 0.
@@ -81,15 +83,18 @@ The memory used to activate the counter in the previous step would need to clear
 
 We first begin by setting cell 2 to 9.
 
+1. Type in '+' 9 times into the input box.
 `+++++++++`
 
 Like the previous step, we utilize a loop to avoid redundant operations.
 
+2. Enter '[' into the input box.
 `[`
 
 This operator lets us start a loop.
 
 Then, we move the data pointer to cell 0 and decrease the value. 
+
 
 `<<-`
 
