@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/tutorials
 ---
 
-# UI Components
+# Tutorials
 
 Click on the links below to access the tutorial you're looking for.
 {: .fs-6 .fw-300 }
