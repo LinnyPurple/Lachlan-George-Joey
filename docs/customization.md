@@ -36,3 +36,5 @@ On this page, you'll find some helpful reminders and tips about this programming
 `[-<->]` Subtract the current cell from the cell on the left. Current cell will be zeroed out in the process.
 
 ## ASCII Table
+
+![ASKEE TABLE](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/ASKEE%20table.png?raw=true "ASCII Tabe")
