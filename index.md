@@ -55,7 +55,7 @@ You can find all the tutorials under the "Tutorials" section in the side bar.
 |:-------------|:---------------------------------------------|--------------|
 | Print Number | Learn how to print a number.                 | Beginner     |
 | Hello World  | Learn how to print "Hello World!             | Intermediate |
-| Addition     | Learn how to make a simple addition program. | Difficult    |
+| Addition     | Learn how to make a simple addition program. | Advanced     |
 
 ---
 
