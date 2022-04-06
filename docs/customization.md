@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reference Guide
-nav_order: 6
+nav_order: 3
 ---
 
 # Reference Guide
@@ -38,3 +38,9 @@ On this page, you'll find some helpful reminders and tips about this programming
 ## ASCII Table
 
 ![ASKEE TABLE](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/ASKEE%20table.png?raw=true "ASCII Tabe")
+
+## Cell Table
+
+In this language, all values are stored in 30,000 "Cells". Each cell can hold any number between 0 and 255.
+
+![Memory dump](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/Memory%20dump.png?raw=true "memorydump")
