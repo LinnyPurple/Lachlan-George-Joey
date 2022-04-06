@@ -2,7 +2,7 @@
 layout: default
 title: Print Numbers Program
 parent: Tutorials
-nav_order: 4
+nav_order: 1
 ---
 
 # Print Number Program
