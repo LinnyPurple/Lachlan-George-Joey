@@ -41,6 +41,6 @@ On this page, you'll find some helpful reminders and tips about this programming
 
 ## Cell Table
 
-In this language, all values are stored in 30,000 "Cells". Each cell can hold any number between 0 and 255.
+In this language, all values are stored in 30,000 "Cells". Each cell can hold any number between 0 and 255. The pointer is always pointing to one of these cells. Whichever cell the pointer is pointing at will be the one affected by an instruction.
 
 ![Memory dump](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/Memory%20dump.png?raw=true "memorydump")
