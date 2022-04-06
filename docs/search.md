@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Search
+parent: UI Components
 nav_order: 7
 ---
 
