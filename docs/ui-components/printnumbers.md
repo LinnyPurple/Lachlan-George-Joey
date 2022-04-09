@@ -29,6 +29,8 @@ After the new line, we will need to initialize the counters.
 `>+++++++++`  
 This will allow us to assign Cell 2 to 9 as counters.  
 
+At the end of the step 1 you should have something like this in the input box.
+![step1](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/step1.png?raw=true"step1")
 
 ## Step 2 - The Loop:
 We will now create a loop that allow us to print numbers from 1 to 9.
