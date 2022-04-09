@@ -89,6 +89,9 @@ Finally, we close off the loop by using the closing square bracket.
 `]`  
 This loop will ultimately decrease the counter from `9` to `0`.
 
+At the end of this step you should have something like this.
+[step3](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/step3.png?raw=true"step3")
+
 ## Step 4 - Print the rest of the number
 The loop from step 2 prints number 1 to 9. Our goal in this program is to also include '10' as well. Since only one number is required to print, we do not need a loop.
 
