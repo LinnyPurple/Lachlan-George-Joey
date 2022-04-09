@@ -59,6 +59,8 @@ Now we end the loop by simply using the closing square bracket.
 `]`  
 This loop will utilize the counter `9` we have assigned earlier and loop until the counter reaches 0.  
 
+At end of this step, you should have something like this.
+![step2](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/step2.png?raw=true"step2")
 
 ## Step 3 - Resetting the counter
 The memory used to activate the counter in the previous step would need to cleared. This step is to make sure no extra memories are being waster.
