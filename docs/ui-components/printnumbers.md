@@ -99,7 +99,7 @@ Type `-` followed by `.` into the input box.
 
 This allows us to print the second of `10` and complete the program. 
 
-3.We can finish off the program by printing the last `new line` to improve clarity and readability
+3. We can finish off the program by printing the last `new line` to improve clarity and readability
 Enter `>` followed by `.` to generate a new line.
 `>.`
 
