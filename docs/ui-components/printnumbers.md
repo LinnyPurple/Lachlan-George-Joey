@@ -63,37 +63,44 @@ We first begin by setting cell 2 to 9.
 1. Type in `+` 9 times into the input box.  
 `+++++++++`  
 Like the previous step, we utilize a loop to avoid redundant operations.  
+
 2. Enter `[` into the input box.  
 `[`  
 This operator lets us start a loop.  
-Then, we move the data pointer to cell 0 and decrease the value.  
+
+3. Then, we move the data pointer to cell 0 and decrease the value.  
+Enter `<<` followed by `-`
 `<<-`  
-Now, wee need to move the pointer to cell 2 where the counter is located.  
+
+4. Now, wee need to move the pointer to cell 2 where the counter is located.  
+Enter `>>` followed by `-`
 `>>-`  
 This will move the pointer to cell 2 and decrease the counter.  
-Finally, we close off the loop by using the closing square bracket.  
+
+5. Finally, we close off the loop by using the closing square bracket.  
+Enter the `]` to close off the loop
 `]`  
 This loop will ultimately decrease the counter from `9` to `0`.
 
 ## Step 4 - Print the rest of the number
-The loop from step 2 prints number 1 to 9. Our goal in this program is to include '10' as well. Since only one number is required to print, we do not need a loop.
+The loop from step 2 prints number 1 to 9. Our goal in this program is to also include '10' as well. Since only one number is required to print, we do not need a loop.
 
 Remember how we have assigned `1` to a cell? we can avoid redundancy and use what we currently have.
 
-Firstly, we move the data point to cell 0 where the `1` is located.
-
+1. Firstly, we move the data point to cell 0 where the `1` is located.
+Type `<<` into the input box.
 `<<.`
 
 This operation allows us to print `1` which is the first half of `10`.
 
-Now we decrease the value in cell 0 (which is `1`) and print.
-
+2. Now we decrease the value in cell 0 (which is `1`) and print.
+Type `-` followed by `.` into the input box.
 `-.`
 
 This allows us to print the second of `10` and complete the program. 
 
-We can finish off the program by printing the last `new line` to improve clarity and readability
-
+3.We can finish off the program by printing the last `new line` to improve clarity and readability
+Enter `>` followed by `.` to generate a new line.
 `>.`
 
 This moves the data pointer to cell 1 where `\n` is located and prints a new line.
