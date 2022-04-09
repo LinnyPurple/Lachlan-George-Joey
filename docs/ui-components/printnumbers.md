@@ -68,17 +68,17 @@ Like the previous step, we utilize a loop to avoid redundant operations.
 `[`  
 This operator lets us start a loop.  
 
-3. Then, we move the data pointer to cell 0 and decrease the value.  
-Enter `<<` followed by `-`
+Then, we move the data pointer to cell 0 and decrease the value.  
+3. Enter `<<` followed by `-`. 
 `<<-`  
 
-4. Now, wee need to move the pointer to cell 2 where the counter is located.  
-Enter `>>` followed by `-`
+Now, wee need to move the pointer to cell 2 where the counter is located.  
+5. Enter `>>` followed by `-`. 
 `>>-`  
 This will move the pointer to cell 2 and decrease the counter.  
 
-5. Finally, we close off the loop by using the closing square bracket.  
-Enter the `]` to close off the loop
+Finally, we close off the loop by using the closing square bracket.  
+5. Enter the `]` to close off the loop. 
 `]`  
 This loop will ultimately decrease the counter from `9` to `0`.
 
@@ -87,20 +87,20 @@ The loop from step 2 prints number 1 to 9. Our goal in this program is to also i
 
 Remember how we have assigned `1` to a cell? we can avoid redundancy and use what we currently have.
 
-1. Firstly, we move the data point to cell 0 where the `1` is located.
-Type `<<` into the input box.
+Firstly, we move the data point to cell 0 where the `1` is located.
+1. Type `<<` into the input box.  
 `<<.`
 
 This operation allows us to print `1` which is the first half of `10`.
 
-2. Now we decrease the value in cell 0 (which is `1`) and print.
-Type `-` followed by `.` into the input box.
+Now we decrease the value in cell 0 (which is `1`) and print.
+2. Type `-` followed by `.` into the input box.  
 `-.`
 
 This allows us to print the second of `10` and complete the program. 
 
-3. We can finish off the program by printing the last `new line` to improve clarity and readability
-Enter `>` followed by `.` to generate a new line.
+We can finish off the program by printing the last `new line` to improve clarity and readability
+3. Enter `>` followed by `.` to generate a new line.  
 `>.`
 
 This moves the data pointer to cell 1 where `\n` is located and prints a new line.
