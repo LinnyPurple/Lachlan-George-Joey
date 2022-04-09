@@ -115,6 +115,9 @@ We can finish off the program by printing the last `new line` to improve clarity
 
 This moves the data pointer to cell 1 where `\n` is located and prints a new line.
 
+4. Now we can finalize the the program by clicking the run button. 
+[run](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/run%20button.png?raw=true"run")
+
 ## Final Program
 The finished program should look something like this:
 ```
@@ -138,6 +141,7 @@ This program prints numbers 1 to 10 to the console
 -.   Decrement cell 0 and print '0'
 >.   Data pointer to cell 1 and print newline
 ```
+[output](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/output.png?raw=true"output")
 
 ## Conclusion
 Congratulation !! You have just printed a series of number.
