@@ -23,6 +23,7 @@ The website we will utilize is [https://copy.sh/brainfuck/](https://copy.sh/brai
 This documentation is targeted towards the following users:
 - Developers who has basic knowledge of system memory such as pointers.
 - Devlopers who has basic knowledge of programming operators such as bit shift.
+- Term 1 student at British Columbia Institute of Technology
 
 ---
 
