@@ -10,6 +10,9 @@ nav_order: 1
 
 A basic printing program gives the user the ability to manipulate the contents of the cells and output their values. This program allows the user to print numbers 1 to 10 in a loop.
 
+All of the commands and the codes will be enter into the input box.
+![inputbox](https://github.com/LinnyPurple/Lachlan-George-Joey/blob/gh-pages/assets/images/inputbox.png?raw=true"inputbox")
+
 ## Step 1 - Moving the Cell:
 The way we plan on printing out numbers is to print out each character individually by using counters and a loop.
 
