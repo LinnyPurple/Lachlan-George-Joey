@@ -18,10 +18,10 @@ Thus we need to make a cell's value equal to 72, then output it.
 Incrementing the cell 0 by 72 by typing ```+``` 72 times is redundant, which is why we plan on using while-loops to decrease the work needed for us.
 
 First, we increment cell 0 by 8. Then, to get 72, we begin a while loop where we:
-- decrease cell 0 by 1
-- move the cell pointer to the right by 1 (now at cell 1)
-- add 9 to cell 1
-- move the cell pointer to the left by 1 (now at cell 0).
+1. decrease cell 0 by 1
+2. move the cell pointer to the right by 1 (now at cell 1)
+3. add 9 to cell 1
+4. move the cell pointer to the left by 1 (now at cell 0).
 
 The while-loop above will execute 8 times, which will give cell 1 the value of 8 * 9 = 72.
 
@@ -36,12 +36,12 @@ After the while-loop executes, we move the cell pointer to the right (since we a
 We will now follow similar steps to print the other characters of "Hello".
 
 The ASCII value of 'e' is 101. Since cell 1 has the value of 72, we will need to increment it by 101 - 72 = 29. The best way to do this in the shortest amount of code is the following:
-- move the cell pointer to 0 and increment by 4
-- begin a while loop where we:
-  - decrease cell 0 by 1
-  - move the cell pointer to the right by 1 (now at cell 1)
-  - add 7 to cell 1
-  - move the cell pointer to the left by 1 (now at cell 0).
+1. move the cell pointer to 0 and increment by 4
+2. begin a while loop where we:
+    1. decrease cell 0 by 1
+    2. move the cell pointer to the right by 1 (now at cell 1)
+    3. add 7 to cell 1
+    4. move the cell pointer to the left by 1 (now at cell 0).
 
 By this, the value of cell 1 is now 72 + 4 * 7 = 72 + 28 = 100, 1 short of 101. All we need to do is to move the cell pointer to the right by 1, add 1, then output cell 1's value (100 + 1 = 101).
 
@@ -69,12 +69,12 @@ The above steps are similar for outputting 'o', which has an ASCII value of 111.
 
 ## Step 3 - Print a space character (' ')
 The ASCII value for a space character is 31. Since we cell 1's value is 111, we need to subtract it by 80 (111 - 80 = 31). We can output a space by doing the following:
-- move the cell pointer to 0 and increment by 8
-- begin a while loop where we:
-  - decrease cell 0 by 1
-  - move the cell pointer to the right by 1 (now at cell 1)
-  - subtract 10 to cell 1
-  - move the cell pointer to the left by 1 (now at cell 0).
+1. move the cell pointer to 0 and increment by 8
+2. begin a while loop where we:
+    1. decrease cell 0 by 1
+    2. move the cell pointer to the right by 1 (now at cell 1)
+    3. subtract 10 to cell 1
+    4. move the cell pointer to the left by 1 (now at cell 0).
 
 Cell 1's value is now (111 - 8 * 10 = 111 - 80 = 31), which is what we need to output a space character. Now move the cell pointer to the right to cell 1 and output its value as such:
 ```
