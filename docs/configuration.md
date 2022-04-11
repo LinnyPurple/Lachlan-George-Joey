@@ -38,7 +38,7 @@ You can find the home directory for common users under `/home/`[_username_] and 
 
 ---
 
-## Operator being used
+## Operators used
 
 | Command         | Description                                                                                             |
 | :--------       | :------------------------------------------------------------------------------------------------------ |
