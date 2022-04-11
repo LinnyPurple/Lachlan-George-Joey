@@ -11,11 +11,11 @@ nav_order: 3
 An addition program is one of the simplest ways to use a user's input in a program. In this example, the user will input two numbers, and the program will print the sum of them.
 
 ## Step 1 - Getting User Input
-Before we can add numbers, we need to get the numbers we're going to add! To get user input in Brainfuck, the `,` character is used. Each time it is used, it will get the next character in the input and set the current cell to the ASCII value of that character.
+Before we can add numbers, we need to get the numbers we're going to add! To get user input in Brainfuck, we use the `,` character. After each use, it will get the next character in the input and set the current cell to the ASCII value of that character.
 
-For this program, the input will be formatted as `# #` with '#' being replaced by a number from 1-9.
+For this program, we will format the input as `# #` where `#` is a number from 1 to 9.
 
-Getting the first number is easy, we just need to do a single `,`. Then we need to move to the next cell and store the second number. The numbers are separated by a space character so we will need to do `,,` to get it.
+Getting the first number is easy, we need to do a single `,`. Then we need to move to the next cell and store the second number. Since we have the numbers separated by a space character, we will need to input `,,` to get it.
 
 Which means our first few lines are going to look like this:
 ```
@@ -24,7 +24,7 @@ Which means our first few lines are going to look like this:
 ```
 
 ## Step 2 - Addition
-Now, we need to add both numbers together. To add cells together, we are going to use a loop. A loop will do a set of commands until the cell it's at at the start of an iteration is equal to 0. Loops are started with `[` and end with `]`. An adding loop will look something like this:
+Now, we need to add both numbers together. To add cells together, we are going to use a loop. A loop will do a set of commands until the cell it's at at the start of an iteration is equal to 0. Loops start with `[` and end with `]`. An adding loop will look something like this:
 
 ```
 [-<+>]
@@ -35,7 +35,7 @@ This loop starts at cell 1, which is where the second number from the input is. 
 ## Step 3 - Subtraction
 Since we added the ASCII values of the numbers rather than their actual values, the value in cell 0 will be incorrect. In fact, it will be exactly 48 too high. This is because the character '0' has an ASCII value of 48. So we will need to subtract 48 from cell 0 to get our answer.
 
-This *could* be done by just putting in 48 `-` characters, but instead we're going to use a loop to shorten the program:
+We *could* do this by inputting 48 `-` characters, but instead we're going to use a loop to shorten the program:
 
 ```
 ++++++
@@ -70,7 +70,7 @@ To input stuff to the program, you need to type it into the text box at the bott
 
 ![input](https://user-images.githubusercontent.com/65137794/161481872-9561c2bf-2d2a-4f53-a22d-55369a6910c6.png)
 
-So if you want to add 3 and 4, type `3 4` into the input box. Then hit run, and your sum will be printed to the console.
+So if you want to add 3 and 4, type `3 4` into the input box. Then hit run, and the output to the console will be the sum of your inputs.
 
 ## Conclusion
-Unfortunately, this program will only work correctly when the sum of the inputted numbers is less than 10. This is because ASCII numbers only go up to 9. So to output 10 or more, you'd need to detect when the sum is greater than 9, and output the correct series of numbers.
+Unfortunately, this program will only work when the sum of the inputted numbers is less than 10. This is because ASCII numbers only go up to 9. So to output 10 or more, you'd need to detect when the sum is greater than 9, and output the correct series of numbers.
