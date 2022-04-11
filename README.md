@@ -1,85 +1,46 @@
-<p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/just-the-docs/just-the-docs/actions?query=workflow%3A%22main+branch+CI%22"><img src="https://github.com/just-the-docs/just-the-docs/workflows/main%20branch%20CI/badge.svg" alt="Build status"></a>
-</p>
-<br><br>
-<p align="center">
-    <h1 align="center">Just the Docs</h1>
-    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://just-the-docs.github.io/just-the-docs/">See it in action!</a></strong></p>
-    <br><br><br>
-</p>
+# Overview of Brainfuck Tutorial Guide
 
-![jtd](https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif)
+Hello user, we have created a guide to introduce the bizzare language of Brainfuck and provide few guides and tutorials of sample programs.
 
-## Installation
+The aim of this document is to provide the user with direction with the following tasks:
+* Print a series of number
+* Print Hello World
+* Addition of integers
 
-### via GitHub Pages remote theme
 
-The quickiest way to use Just The Docs is to use GitHub pages [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) feature in your `config.yml` file:
+## How We Collaborated Together
 
-```yaml
-remote_theme: just-the-docs/just-the-docs
-```
-### via RubyGems:
+At the beginning of this assignment, we were collaborating with each other during classtime. We have used the time in class to brainstorm few ideas and applications we could do guides for. Upon deciding the topic of brainfuck we have created a group chat in discord to distribute tasks and research areas to aid us in the language. 
 
-Alternatively you can install it as a Ruby Gem.
+We utilized git and created a folder to collaborate on.
 
-Add this line to your Jekyll site's Gemfile:
+## How We Created Our Guide
 
-```ruby
-gem "just-the-docs"
-```
+To create our guide, we used various sources of documentation and applications. We used an online compiler to code on a website to reduced the complixity.
 
-And add this line to your Jekyll site's `_config.yml`:
+### Using Markdown
 
-```yaml
-theme: just-the-docs
-```
+We were introduced to markdown which is a simple and effective method of creating a guide.
 
-And then execute:
+Since our knowledge in markdown style guides were limited, we used various guides and tutorials to increase our understanding of the method.
 
-    $ bundle
+### Learning Best Practices for Web Writing
 
-Or install it yourself as:
+Developers should get in the habit of using markdowns and web writing as a form of documantation. This will significantly increase efficient communication and reduce pototential erros.
 
-    $ gem install just-the-docs
+In this guide, we have labeled each steps and used markdown forms to increase clarity. 
 
-Alternatively, you can run it inside Docker while developing your site
 
-    $ docker-compose up
+A ❗ indicates information that the user does not want to ignore. It will be generated if error occurs.
 
-## Usage
+## Conclusion
 
-[View the documentation](https://just-the-docs.github.io/just-the-docs/) for usage information.
+The creation of this guide has challenged us as a developer. Learning a new language is hard, especially a language as bizzare as brainfuck. 
 
-## Contributing
+This assignment gave us the opportunity to approach a problem through the eyes of a developer who is learning a diffcult language. This has helped us to comb through our knowledge learned and ultimately made us into a better developer.
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/just-the-docs/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+This assignment has made us realize the importance of a good communication within a team. Our group has always been working solo and this assignment challenged us with team cooperation.
 
-### Submitting code changes:
+Thank you for using our first guide. We hope you find enjoyment in this brief tutorial of the most useless language ever created.
 
-- Open a [Pull Request](https://github.com/just-the-docs/just-the-docs/pulls)
-- Ensure all CI tests pass
-- Await code review
-- Bump the version number in `just-the-docs.gemspec` and `package.json` according to [semantic versioning](https://semver.org/).
-
-### Design and development principles of this theme:
-
-1. As few dependencies as possible
-2. No build script needed
-3. First class mobile experience
-4. Make the content shine
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-A modern [devcontainer configuration](https://code.visualstudio.com/docs/remote/containers) for VSCode is included.
-
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When the theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+This document was built on: <a href="https://github.com/pmarsceill/just-the-docs"><h2>Just the Docs</h2></a>
